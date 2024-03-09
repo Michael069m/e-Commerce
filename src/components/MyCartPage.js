@@ -10,6 +10,7 @@ function MyCartPage() {
         let totalling = 0;
         cart.map((item)=>{
             totalling+=item.quantity*item.price;
+            return totalling;
         })
         setTotal(totalling);
     },[cart])
