@@ -1,0 +1,15 @@
+@media (max-width: 768px) {
+    .frame {
+        width: 45% !important;
+    }
+  }
+  
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  body{
+    overflow-x: hidden;
+  }
+  
