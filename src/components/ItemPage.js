@@ -45,7 +45,7 @@ function ItemPage(){
     return(
         <div className="bg w-full h-full flex flex-wrap">
             <div
-                className="img w-full h-[500px] md:w-[45%] md:h-screen"
+                className="img w-full h-[500px] md:w-[40%] md:h-screen"
                 style={{
                     backgroundImage: `url(${product.image})`,
                     backgroundSize: 'contain',  
@@ -89,7 +89,7 @@ function ItemPage(){
                 </div>
                 </form>
             </div>
-            <div className="bg-gray-200 hidden md:block md:w-[15%] md:h-screen flex flex-wrap justify-center" >
+            <div className="bg-gray-200 hidden md:block md:w-[20%] md:h-screen flex flex-wrap justify-center" >
               <div className={`${cart.length===0 ? "hidden" : "block"} text-center text-4xl font-semibold`}> Cart</div>
               <div className={`${cart.length===0 ? "hidden" : "block"}`}>
                 {cart.map((item) => (
